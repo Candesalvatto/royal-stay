@@ -77,7 +77,7 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
       </div>
     </nav>
 
-    <nav className='md:hidden block border-b border-[#c8a951] w-full px-2 py-4'>
+    <nav className='md:hidden block border-b border-[#c8a951] w-full px-2 py-4 bg-white'>
       <div className=' flex flex-row justify-between'>
         <Link href="/">
         <Image 

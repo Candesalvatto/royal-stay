@@ -7,7 +7,7 @@ import Button from './Button';
 const Footer = () => {
   return (
     <div className='w-full mt-25 '>
-        <section className='border border-[#c8a951] max-w-9/10 md:max-w-8/10 mx-auto py-25 px-5 md:h-80  flex flex-col justify-center items-center text-center'>
+        <section className='border border-[#c8a951] bg-white max-w-9/10 md:max-w-8/10 mx-auto py-25 px-5 md:h-80  flex flex-col justify-center items-center text-center'>
         <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[30px] md:text-[58px] font-bold leading-[1.3]`}>¿ESTÁS LISTO PARA VIVIR UN VIAJE ÚNICO?</h3>
         <p className={`${inter.className} antialiased ${style.textcolor} text-[16px] md:mt-5 mt-5  `}>Reserva hoy mismo y no te vayas sin vivir increíbles recuerdos.</p>
         <div className={`${inter.className} md:mt-10 mt-10 `}>
