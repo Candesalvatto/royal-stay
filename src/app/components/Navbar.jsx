@@ -5,10 +5,13 @@ import style from '@/app/home.module.css'
 import Image from "next/image";
 import Link from "next/link";
 import Button from './Button';
-// import { usePathname } from 'next/navigation';
+
+
+
 
 
 const Navbar = () => {
+
 
     // const pathname = usePathname()
 
@@ -28,10 +31,9 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className="fixed top-0 left-0 w-full bg-white  z-50   ">
+        <nav className="fixed top-0 left-0 w-full bg-white  z-50  hidden md:block ">
         <div className="flex items-center justify-between max-w-8/10 mx-auto border-b border-[#c8a951] px-2 py-7 ">
       <div>
-
 
 
         <Link href="/">
@@ -73,6 +75,23 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
 
       </div>
       </div>
+    </nav>
+
+    <nav className='md:hidden block border-b border-[#c8a951] w-full px-2 py-4'>
+      <div className=' flex flex-row justify-between'>
+        <Link href="/">
+        <Image 
+        src='/logo.png'
+         alt="Royal Stay Logo"
+          width={200}
+           height={200} />
+        </Link>
+        <Image 
+        src='/menu-open.png'
+         alt="menu"
+          width={50}
+           height={50} />
+</div>
     </nav>
     </div>
   )
