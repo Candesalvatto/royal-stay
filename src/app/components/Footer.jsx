@@ -3,6 +3,7 @@ import { inter } from '../layout';
 import { oswald } from '../layout';
 import style from '@/app/home.module.css'
 import Button from './Button';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -18,7 +19,33 @@ const Footer = () => {
                     </Button>
               </div>
         </section>
-        <section className=' w-full mx-auto  bg-[#1a1a1a] h-100 md:mt-20 mt-10'>
+
+        <section className=' w-full mx-auto flex flex-col justify-between space-y-5  bg-[#1a1a1a]  md:mt-20 mt-10'>
+            <div className=' w-9/10 mx-auto md:w-8/10 flex flex-col md:flex-row py-20'>
+              <div className='flex flex-col justify-start border-2py-16 space-y-3 pb-10 md:w-1/2'>
+                <Image
+                src='/logo.png'
+                alt='Royal Stay'
+                width={400}
+                height={200}
+                className='hidden md:block object-cover '
+                />
+                                <Image
+                src='/logo.png'
+                alt='Royal Stay'
+                width={250}
+                height={100}
+                className='md:hidden block object-cover '
+                />
+        <h2 className={`${oswald.className} antialiased ${style.royalcolor}  text-[20px]  md:text-[34px] font-bold`}>A UN PASO DE TU ESTADÍA REAL</h2>
+              </div>
+              <div className={` ${inter.className} text-[16px] antialiased space-y-3  flex flex-col  md:p-16 text-white md:w-1/2 justify-start items-start md:items-end md:justify-end`}>
+                <p>Palermo, Buenos Aires</p>
+                <p>347255555</p>
+                <p>347255555</p>
+                <p>@royalstayba</p>
+              </div>
+            </div>
     <span className={`${inter.className} text-white text-[10px] md:text-[16px] flex justify-center `}>© Royal Stay – Todos los derechos reservados.</span>
         </section>
     </div>

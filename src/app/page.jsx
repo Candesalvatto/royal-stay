@@ -8,10 +8,23 @@ import Button from './components/Button'
 
 
 
+export const metadata = {
+  title: "Royal Stay",
+  description: "Experiencias para vivir Buenos Aires",
+  keywords: ["experiencias", "buenos aires"],
+  openGraph: {
+    title: "Royal Stay",
+    description: "Experiencias para vivir Buenos Aires",
+    type: "website",
+  },
+  locale: "es_ES",
+};
+
 const Home = () => {
   return (
-    <div className="bg-white" >
-      <div className="max-w-9/10 md:max-w-8/10 mx-auto  flex flex-col md:flex-row items-start md:items-end md:justify-between mt-15 mb-7  md:mt-50 md:mb-15">
+    <div className="bg-white mt-35" >
+
+      <div className="max-w-9/10 md:max-w-8/10 mx-auto  flex flex-col md:flex-row items-start md:items-end md:justify-between  mb-7  md:mt-50 md:mb-15">
         <h1 className={`${oswald.className} antialiased ${style.royalcolor}  text-[54px] md:text-[64px] lg:text-[85px]  md:w-3/4 font-bold leading-[1.1]`}>VIVE CADA LUGAR Y SÉ PARTE DE SU HISTORIA</h1>
         <p className={`${inter.className} antialiased ${style.textcolor}  text-[16px] md:w-1/4 mt-5`}>Experiencias auténticas pensadas para descubrir la esencia de Buenos Aires</p>
       </div>
