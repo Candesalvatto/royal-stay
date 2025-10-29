@@ -5,19 +5,6 @@ import Navbar from "./components/Navbar";
 
 
 
-
-// export const metadata = {
-//   title: "Royal Stay",
-//   description: "Experiencias para vivir Buenos Aires",
-//   keywords: ["experiencias", "buenos aires"],
-//   openGraph: {
-//     title: "Royal Stay",
-//     description: "Experiencias para vivir Buenos Aires",
-//     type: "website",
-//   },
-//   locale: "es_ES",
-// };
-
 export const inter = Inter({
   subsets: ["latin"],
   weight: ["400"]

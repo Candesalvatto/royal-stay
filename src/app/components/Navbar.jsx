@@ -54,7 +54,7 @@ const Navbar = () => {
               key={link.label}
               href={link.href}
               className={`hover:text-[#c8a951] transition ${
-                pathname === link.href ? 'text-[#c8a951] font-bold' : ''
+                pathname === link.href ? 'text-[#c8a951] ' : ''
               }`}
             >
                   {link.label}

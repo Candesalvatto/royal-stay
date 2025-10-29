@@ -1,0 +1,42 @@
+[
+    {
+    "title": "CANCHA DE FÚTBOL",
+    "description": "Siente la emoción del fútbol argentino desde adentro. Vive un partido en el estadio Monumental con la energía incomparable de los hinchas de River Plate. Disfruta la experiencia desde asientos especiales en la platea, con una vista privilegiada y toda la comodidad para vivir el espectáculo más apasionante del país.",
+    "images": [
+      "/cancha1.jpg",
+            "/cancha2.jpg",
+                  "/cancha3.jpg",
+                        "/cancha4.jpg"
+    ]
+    },
+        {
+    "title": "CATA DE VINOS",
+    "description": "Degustá junto a enólogos y sommeliers en espacios exclusivos de Palermo o en la calidez de sus propias casas, con una selección de etiquetas cuidadosamente elegidas para disfrutar el vino argentino con todos los sentidos. Un encuentro cercano donde cada copa refleja elegancia, carácter e historia",
+    "images": [
+      "/Catadevino1.jpg",
+            "/Catadevino2.jpg",
+                  "/Catadevino3.jpg",
+                        "/Catadevino4.jpeg"
+    ]
+    },
+        {
+    "title": "MASAJES RELAJANTES",
+    "description": "Descansá el cuerpo y la mente con nuestra selección de masajes: relajantes, tailandeses, nepaleses o descontracturantes. Dejate envolver por aromas suaves, música tranquila y manos expertas que liberan la tensión acumulada de los días de viaje. Podés disfrutar tu masaje en la comodidad del alojamiento o en un espacio especialmente preparado para desconectar por completo del ritmo de la ciudad. Una pausa perfecta para recargar energía y seguir disfrutando de Buenos Aires con una nueva sensación de bienestar.",
+    "images": [
+      "/masajes1.jpg",
+            "/masajes2.jpg",
+                  "/masajes3.jpg",
+                        "/masajes4.jpg"
+    ]
+    },
+        {
+    "title": "PASEOS EN BICICLETA",
+    "description": "Recorré la ciudad acompañado por guías expertos que conocen su historia, cultura y secretos mejor guardados. Pedaleá entre calles arboladas, plazas llenas de vida y barrios con personalidad propia. Una forma diferente de descubrir la ciudad: más cercana, más auténtica y, sobre todo, más tuya. Nuestros guías locales te acompañan en grupos pequeños, para que puedas disfrutar el trayecto a tu ritmo, detenerte, sacar fotos y vivir cada rincón sin prisa.",
+    "images": [
+      "/paseos1.jpg",
+            "/paseos2.jpg",
+                  "/paseos3.jpg",
+                        "/paseos4.jpg"
+    ]
+    }
+]
