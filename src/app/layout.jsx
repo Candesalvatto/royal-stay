@@ -20,7 +20,7 @@ export const oswald = Oswald({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className="bg-white dark:bg-white">
       <body className={`bg-white ${inter.className}`} >
         <Navbar/>
         {children}

@@ -21,7 +21,7 @@ const AboutUs = () => {
 
 
   return (
-    <div className=' max-w-9/10 md:max-w-8/10 mx-auto flex flex-col md:flex-row mt-35 md:mt-50 md:gap-20 gap-10'>
+    <div className=' max-w-9/10 md:max-w-8/10 mx-auto flex flex-col md:flex-row mt-35 md:mt-50 md:gap-20 gap-10 bg-white'>
 
       <div className='w-full'>
       <h3 className={`${oswald.className} antialiased ${style.royalcolor}  text-[36px] md:text-[58px]  font-bold md:mt-10 `}>DETRÁS DE ROYAL STAY</h3>

@@ -34,7 +34,7 @@ const [index, setIndex] = useState(0)
   }
 
   return (
-    <div className='max-w-9/10 md:max-w-8/10 mx-auto flex flex-col mt-35 md:mt-50 md:gap-20 gap-10 '>
+    <div className='max-w-9/10 md:max-w-8/10 mx-auto flex flex-col mt-35 md:mt-50 md:gap-20 gap-10 bg-white '>
 
         <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[36px] md:text-[58px] font-bold md:mt-10`}>
           NUESTRAS EXPERIENCIAS
