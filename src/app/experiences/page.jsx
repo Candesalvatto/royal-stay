@@ -74,7 +74,7 @@ const [index, setIndex] = useState(0)
         ))}
 
         {/* Modal de imagen ampliada */}
-        <div className={`${showImage} fixed inset-0 flex items-center justify-center bg-white/95 z-50`}>
+        <div className={`${showImage} fixed inset-0 flex items-center justify-center h-full bg-white z-50`}>
           {/* Botón anterior */}
           <div onClick={prevImage} className='cursor-pointer md:p-3 hover:scale-105 absolute left-0 md:left-10 '>
             <ChevronLeft className='w-10 h-10 text-[#c8a951]' />

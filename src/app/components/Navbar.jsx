@@ -16,6 +16,8 @@ const Navbar = () => {
   const pathname = usePathname()
   const [menuOpen, setMenuOpen] = useState(false)
 
+  
+
 
     const links = [
         {href:'/experiences',
@@ -25,7 +27,7 @@ const Navbar = () => {
         {href:'/aboutus',
             label: 'SOBRE NOSOTROS'
             }, 
-       {href:'/contact',
+       {href:'#contact',
         label: 'CONTACTO'
                 }
     ]
@@ -79,25 +81,6 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
 
 
 
-{/* 
-    <nav className='md:hidden block border-b border-[#c8a951] w-full px-2 py-4 bg-white'>
-      <div className=' flex flex-row justify-between'>
-        <Link href="/">
-        <Image 
-        src='/logo.png'
-         alt="Royal Stay Logo"
-          width={200}
-           height={200} />
-        </Link>
-
-        <Image 
-        src='/menu-open.png'
-         alt="menu"
-          width={44}
-           height={44}
-           className='p-1' />
-</div>
-    </nav> */}
 
         {/* Mobile */}
 <nav className="md:hidden fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-3 py-4 border-b border-[#c8a951]">

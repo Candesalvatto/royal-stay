@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className='w-full mt-25 bg-white'>
+    <div  className='w-full mt-25 bg-white'>
         <section className='border border-[#c8a951] bg-white max-w-9/10 md:max-w-8/10 mx-auto py-25 px-5 md:h-80  flex flex-col justify-center items-center text-center'>
         <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[30px] md:text-[58px] font-bold leading-[1.3]`}>¿ESTÁS LISTO PARA VIVIR UN VIAJE ÚNICO?</h3>
         <p className={`${inter.className} antialiased ${style.textcolor} text-[16px] md:mt-5 mt-5  `}>Reserva hoy mismo y no te vayas sin vivir increíbles recuerdos.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
               </div>
         </section>
 
-        <section className=' w-full mx-auto flex flex-col justify-between space-y-5  bg-[#1a1a1a]  md:mt-20 mt-10'>
+        <section id="contacto" className=' w-full mx-auto flex flex-col justify-between space-y-5  bg-[#1a1a1a]  md:mt-20 mt-10'>
             <div className=' w-9/10 mx-auto md:w-8/10 flex flex-col md:flex-row py-20'>
               <div className='flex flex-col justify-start border-2py-16 space-y-3 pb-10 md:w-1/2'>
                 <Image
