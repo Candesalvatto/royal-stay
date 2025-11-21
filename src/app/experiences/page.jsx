@@ -5,8 +5,9 @@ import { inter } from '../layout'
 import style from '@/app/home.module.css'
 import Image from 'next/image'
 import galleryData from '@/app/experiences.json'
-import { useState } from 'react'
+import { useState} from 'react'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
+
 
 
 const Experiences = () => {
@@ -33,10 +34,12 @@ const [index, setIndex] = useState(0)
     setGalleryImage(currentImages[prevIndex])
   }
 
-  return (
-    <div className='max-w-9/10 md:max-w-8/10 mx-auto flex flex-col mt-35 md:mt-50 md:gap-20 gap-10 bg-white '>
 
-        <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[36px] md:text-[58px] font-bold md:mt-10`}>
+
+  return (
+    <div className='max-w-9/10 lg:max-w-8/10 mx-auto flex flex-col mt-35 lg:mt-50 lg:gap-20 gap-10 bg-white '>
+
+        <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[36px] lg:text-[58px] font-bold lg:mt-10`}>
           NUESTRAS EXPERIENCIAS
         </h3>
 
@@ -44,7 +47,7 @@ const [index, setIndex] = useState(0)
 
         {galleryData.map((section, sectionIndex) => (
           <section key={sectionIndex}>
-            <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[26px] md:text-[38px]  font-bold   md:w-2/3 leading-[1.3]`}>
+            <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[26px] lg:text-[38px]  font-bold   md:w-2/3 leading-[1.3]`}>
               {section.title}
             </h3>
             <p className= {`${style.textcolor} mb-6 mt-6`}>{section.description}</p>
@@ -53,7 +56,7 @@ const [index, setIndex] = useState(0)
               {section.images.map((src, i) => (
                 <div
                   key={i}
-                  className="relative w-full  h-40 md:h-80 overflow-hidden  hover:shadow-lg  cursor-pointer"
+                  className="relative w-full  h-40 lg:h-80 overflow-hidden  hover:shadow-lg  cursor-pointer"
                   onClick={() => {
                     setShowImage('')
                     setGalleryImage(src)

@@ -35,8 +35,8 @@ const Navbar = () => {
 
   return (
     <div>
-        <nav className="fixed top-0 left-0 w-full bg-white  z-50  hidden md:block ">
-        <div className="flex items-center justify-between max-w-8/10 mx-auto border-b border-[#c8a951] px-2 py-7 ">
+        <nav className="fixed top-0 left-0 w-full bg-white  z-50  hidden  lg:block ">
+        <div className="flex items-center justify-between max-w-8/10  lg:max-w-9/10 sm:max-w-9/10 mx-auto border-b border-[#c8a951] px-2 py-7 ">
       <div>
 
 
@@ -83,7 +83,7 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
 
 
         {/* Mobile */}
-<nav className="md:hidden fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-3 py-4 border-b border-[#c8a951]">
+<nav className=" lg:hidden fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-3 py-4 border-b border-[#c8a951]">
   <Link href="/">
     <Image src="/logo.png" alt="Royal Stay Logo" width={200} height={200} />
   </Link>
@@ -101,7 +101,7 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
 
 {/* Mobile Menu */}
 {menuOpen && (
-  <div className="md:hidden fixed top-[70px] left-0 w-full z-50 flex flex-col items-start bg-white py-5 px-5 space-y-3 border-b border-[#c8a951]">
+  <div className=" lg:hidden fixed top-[70px] left-0 w-full z-50 flex flex-col items-start bg-white py-5 px-5 space-y-3 border-b border-[#c8a951]">
     {links.map(link => (
       <Link
         key={link.label}
