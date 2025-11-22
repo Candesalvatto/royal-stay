@@ -61,13 +61,14 @@ const [index, setIndex] = useState(0)
                     setShowImage('')
                     setGalleryImage(src)
                     setIndex(i)
-                    setCurrentImages(section.images) // 👈 guardamos las imágenes de la sección
+                    setCurrentImages(section.images) 
                   }}
                 >
                   <Image
                     src={src}
                     alt={`${section.title} ${i + 1}`}
                     fill
+                    priority
                     className="object-cover hover:scale-105 transition-transform"
                   />
                 </div>
@@ -76,28 +77,29 @@ const [index, setIndex] = useState(0)
           </section>
         ))}
 
-        {/* Modal de imagen ampliada */}
+
         <div className={`${showImage} fixed inset-0 flex items-center justify-center h-full bg-white z-50`}>
-          {/* Botón anterior */}
+
           <div onClick={prevImage} className='cursor-pointer md:p-3 hover:scale-105 absolute left-0 md:left-10 '>
             <ChevronLeft className='w-10 h-10 text-[#c8a951]' />
           </div>
 
-          {/* Imagen principal */}
+
           <Image
             alt="Imagen ampliada"
             width={800}
             height={600}
+            priority
             src={galleryImage}
             className='object-contain max-h-[60vh] md:max-h-[80vh]'
           />
 
-          {/* Botón siguiente */}
+
           <div onClick={nextImage} className='cursor-pointer md:p-3 hover:scale-105 absolute right-0 md:right-10 color-[#c8a951]  '>
             <ChevronRight className='w-10 h-10 text-[#c8a951]' />
           </div>
 
-          {/* Botón cerrar */}
+
           <div onClick={() => setShowImage('hidden')} className='cursor-pointer md:p-2 fixed  top-10 right-10 color-[#c8a951] hover:scale-105'>
             <X className='w-10 h-10 text-[#c8a951]' />
           </div>

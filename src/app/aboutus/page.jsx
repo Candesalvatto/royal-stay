@@ -29,16 +29,18 @@ const AboutUs = () => {
       </div>
       <div>
       <Image
-                    src='/about-desktop.jpg'
+                    src='/about-desktop.webp'
                     alt='Mati y Angie'
                     width={700}      
                     height={700} 
+                    priority
                     className='hidden md:block'/>
             <Image
-                    src='/about-mobile.jpg'
+                    src='/about-mobile.webp'
                     alt='Mati y Angie'
                     width={300}      
                     height={200} 
+                    priority
                     className='block md:hidden object-cover w-full h-auto'/>
       </div>
     </div>

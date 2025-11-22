@@ -43,7 +43,7 @@ const Footer = () => {
 
                 <div className='flex '>
                 <Image
-                src='/local.png'
+                src='/local.webp'
                 alt=' '
                 width={25}
                 height={20}
@@ -57,7 +57,7 @@ const Footer = () => {
                 </div>
                 <div className=' flex '>
                 <Image
-                src='/call.png'
+                src='/call.webp'
                 alt=' '
                 width={25}
                 height={20}
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                <div className=' flex '>
                 <Image
-                src='/call.png'
+                src='/call.webp'
                 alt=' '
                 width={25}
                 height={20}
@@ -83,7 +83,7 @@ const Footer = () => {
                 </div>
                  <div className=' flex '>
                 <Image
-                src='/insta.png'
+                src='/insta.webp'
                 alt=' '
                 width={25}
                 height={20}

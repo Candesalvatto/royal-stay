@@ -45,7 +45,8 @@ const Navbar = () => {
         src='/logo.png'
          alt="Royal Stay Logo"
           width={200}
-           height={200} />
+           height={200}
+           priority />
         </Link>
       </div>
 
@@ -82,7 +83,6 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
 
 
 
-        {/* Mobile */}
 <nav className=" lg:hidden fixed top-0 left-0 w-full z-50 bg-white flex items-center justify-between px-3 py-4 border-b border-[#c8a951]">
   <Link href="/">
     <Image src="/logo.png" alt="Royal Stay Logo" width={200} height={200} />
@@ -99,7 +99,6 @@ href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%
   </button>
 </nav>
 
-{/* Mobile Menu */}
 {menuOpen && (
   <div className=" lg:hidden fixed top-[70px] left-0 w-full z-50 flex flex-col items-start bg-white py-5 px-5 space-y-3 border-b border-[#c8a951]">
     {links.map(link => (

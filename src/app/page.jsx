@@ -22,6 +22,7 @@ export const metadata = {
   locale: "es_ES",
 };
 
+
 const Home = () => {
   return (
   <AOSProvider>
@@ -35,18 +36,20 @@ const Home = () => {
         <Image
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        src='/hero-desktop-ba.png'
+        src='/hero-desktop-ba.webp'
         alt='Buenos Aires'
         width={1920}
         height={260}
         className='hidden md:block object-cover'
+        priority
         />
                 <Image
-        src='/hero-mobile-3.png'
+        src='/hero-mobile-3.webp'
         alt='Buenos Aires'
         width={560}
         height={420}
         className='block md:hidden object-cover'
+        priority
         />
       </div>
       <div         data-aos="fade-up"
@@ -68,10 +71,11 @@ href="/experiences"
         <Link href="/experiences" >
           <div >
             <Image
-                    src='/masajes.jpeg'
+                    src='/masajes.webp'
                     alt='Masajes Relajantes'
                     width={700}
-                    height={700} />
+                    height={700}
+                    priority />
             <h3 className={`${oswald.className} antialiased ${style.royalcolor}  text-[20px] lg:text-[28px]  font-bold mt-5 lg:mt-5`}>MASAJES RELAJANTES</h3>
             <p className={`${inter.className} antialiased ${style.textcolor}  text-[16px] lg:mt-3 mt-2 `}>Terapeutas cuidadosamente elegidos y probados por nosotros, garantizando calidad y confianza.</p>
           </div>
@@ -80,10 +84,11 @@ href="/experiences"
         <Link href="/experiences" >
           <div>
             <Image
-                    src='/paseos.jpeg'
+                    src='/paseos.webp'
                     alt='Masajes Relajantes'
                     width={700}
-                    height={700} />
+                    height={700} 
+                    priority/>
             <h3 className={`${oswald.className} antialiased ${style.royalcolor}  text-[20px] lg:text-[28px]  font-bold mt-5 lg:mt-5 `}>PASEOS EN BICICLETA</h3>
             <p className={`${inter.className} antialiased ${style.textcolor} text-[16px] lg:mt-3 mt-2  `}>Viví un recorrido dinámico que combina movimiento, paisajes y relatos que solo los locales pueden contar</p>
           </div>
@@ -92,10 +97,11 @@ href="/experiences"
         <Link href="/experiences" >
           <div>
             <Image
-                    src='/cancha.jpg'
+                    src='/cancha.webp'
                     alt='Masajes Relajantes'
                     width={700}
-                    height={700} />
+                    height={700} 
+                    priority/>
             <h3 className={`${oswald.className} antialiased ${style.royalcolor}  text-[20px] lg:text-[28px]  font-bold mt-5 lg:mt-5 `}>PARTIDOS DE FÚTBOL</h3>
             <p className={`${inter.className} antialiased ${style.textcolor} text-[16px] lg:mt-3 mt-2  `}>Emoción en la cancha más grande y épica de Argentina.</p>
           </div>
@@ -104,10 +110,11 @@ href="/experiences"
         <Link href="/experiences" >
           <div>
             <Image
-                    src='/vinos.jpg'
+                    src='/vinos.webp'
                     alt='Masajes Relajantes'
                     width={700}
-                    height={700} />
+                    height={700}
+                    priority />
             <h3 className={`${oswald.className} antialiased ${style.royalcolor} text-[20px] lg:text-[28px]  font-bold mt-5 lg:mt-5`}>CATA DE VINOS</h3>
             <p className={`${inter.className} antialiased ${style.textcolor} text-[16px] lg:mt-3 mt-2  `}>Selección de etiquetas cuidadosamente elegidas.</p>
           </div>
@@ -123,8 +130,7 @@ href="/experiences"
       </section>
 
 
-      <section         data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom" className=' max-w-9/10 lg:max-w-8/10 mx-auto md:mt-10 lg:mb-10 grid lg:grid-cols-3 md:gap-4 gap-1'>
+      <section  className=' max-w-9/10 lg:max-w-8/10 mx-auto md:mt-10 lg:mb-10 grid lg:grid-cols-3 md:gap-4 gap-1'>
         <div className=' lg:mt-5 lg:mb-5 mt-5 mb-2'>
         <div className='flex flex-row items-center '>
           <p className={`${oswald.className} antialiased ${style.royalcolor}  mr-4 text-16px md:text-[20px] font-light border border-[#c8a951] md:px-3 px-3 py-2 `}>01</p>
@@ -155,48 +161,54 @@ href="/experiences"
       <div className='grid lg:w-1/2 gap-5  lg:grid-cols-2  lg:gap-2 z-0  lg:items-stretch  '>
       <div className="flex flex-col gap-2 items-center">
       <Image
-                    src='/cancha-2.jpg'
+                    src='/cancha-2.webp'
                     alt=' '
                     width={400}
                     height={300}
-                    className='  hidden md:block  w-full object-cover md:h-[300px]  lg:h-auto    '/>
+                    className='  hidden md:block  w-full object-cover md:h-[300px]  lg:h-auto  
+                    priority  '/>
                     
 <Image
-                    src='/cancha-2.jpg'
+                    src='/cancha-2.webp'
                     alt=' '
                     width={400}
                     height={400}
-                    className='   block md:hidden  object-cover'/>
+                    className='   block md:hidden  object-cover'
+                    priority />
                               
         <Image
-                    src='/palermo.jpg'
+                    src='/palermo.webp'
                     alt=' '
                     width={400}
                     height={300}
+                    priority
                     className='hidden md:block  w-full object-cover md:h-[300px]  lg:h-auto   '/>
                     </div>
                     <div className=" items-center">
 
                               <Image
-                    src='/palermo.jpg'
+                    src='/palermo.webp'
                     alt=' '
                     width={400}
                     height={400}
+                    priority
                     className='   block md:hidden  object-cover'/>
         <Image
-                    src='/bandera.jpg'
+                    src='/bandera.webp'
                     alt=' '
                     width={400}
                     height={620}
+                    priority
                     className='hidden md:block  w-full object-cover md:h-[300px]  lg:h-auto   '/>
                     </div>
 
 
         <Image
-                    src='/bandera-2.jpg'
+                    src='/bandera-2.webp'
                     alt=' '
                     width={400}
                     height={400}
+                    priority
                     className='  block md:hidden  object-cover '/>
       </div>
       
