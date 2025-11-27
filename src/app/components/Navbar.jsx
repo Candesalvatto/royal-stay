@@ -106,7 +106,7 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
       {menuOpen && (
-        <div className="lg:hidden fixed top-[70px] left-0 w-full z-50 flex flex-col items-start bg-white py-5 px-5 space-y-3 border-b border-[#c8a951]">
+        <div className="lg:hidden fixed top-[70px] left-0 w-full z-50 flex flex-col items-start bg-white py-5 px-5 space-y-5 border-b border-[#c8a951]">
 
           {links.map(link => (
             <Link
@@ -123,12 +123,12 @@ const Navbar = () => {
 
           <Button
             href="https://api.whatsapp.com/send?phone=5493472554912&text=¡Hola!%20Quisiera%20reservar%20una%20experiencia%20en%20Royal%20Stay."
-            className="bg-[#c8a951] text-white px-4 py-2 rounded hover:bg-green-700 transition"
+            className="bg-[#c8a951]  text-white px-4 py-2  transition"
           >
             {t("navbar.bookNow")}
           </Button>
 
-          <LanguageSwitcher />
+          <LanguageSwitcher/>
         </div>
       )}
     </div>
