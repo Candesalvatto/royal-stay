@@ -47,7 +47,7 @@ export default function LanguageSwitcher() {
   return (
     <button 
       onClick={toggleLanguage}
-      className="px-3 flex flex-row justify-center items-center cursor-pointer"
+      className="px-3 flex flex-row justify-center items-center cursor-pointer text-[#1a1a1a] " 
     >
       <Image
         src="/internet.png"
