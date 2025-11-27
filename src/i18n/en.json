@@ -1,0 +1,61 @@
+{
+  "home": {
+    "title": "Live every place as part of its story",
+    "subtitle": "Authentic experiences designed to discover the essence of Buenos Aires",
+      "section2_title": "BUENOS AIRES BEYOND TOURISM",
+    "section2_button": "VIEW MORE",
+
+    "grid": {
+      "massage_title": "RELAXING MASSAGES",
+      "massage_text": "Therapists carefully selected and tested by us, ensuring quality and trust.",
+
+      "bike_title": "BIKE TOURS",
+      "bike_text": "Enjoy a dynamic tour that blends movement, landscapes, and stories only locals can share.",
+
+      "football_title": "FOOTBALL MATCHES",
+      "football_text": "Experience the excitement in the largest and most iconic stadium in Argentina.",
+
+      "wine_title": "WINE TASTING",
+      "wine_text": "A selection of carefully curated wine labels."
+    },
+
+    "how_title": "HOW IT WORKS",
+    "how_text": "We believe meaningful trips begin with genuine connections. We take the time to understand each client's interests and rely on well-established local partnerships to craft private, carefully tailored itineraries with a simple and personalized process.",
+
+    "steps": {
+      "step1_title": "CHOOSE AN EXPERIENCE",
+      "step1_text": "Explore our options and choose the perfect one for your trip. Each experience is designed for you to enjoy—combining relaxation, culture, and adventure so you can experience the city your own way.",
+
+      "step2_title": "CONTACT US",
+      "step2_text": "When you find the right experience, message us on WhatsApp or Instagram. We’ll connect you directly with the hosts and coordinate all the details for you.",
+
+      "step3_title": "ENJOY",
+      "step3_text": "On the day of your experience, all you need to do is enjoy. Each activity is run by professionals who love what they do and want to share their passion with you."
+    },
+
+    "final_section_title": "CREATING REAL MOMENTS OF CONNECTION",
+    "final_section_text": "At Royal Stay we know what to do, where to do it, and—most importantly—when to do it. We design everything for those seeking authenticity and quality.",
+    "final_section_button": "VIEW MORE"
+    
+  },
+
+
+    "navbar": {
+    "experiences": "EXPERIENCES",
+    "about": "ABOUT US",
+    "contact": "CONTACT",
+    "bookNow": "BOOK NOW"
+  },
+    "about": {
+    "title": "BEHIND ROYAL STAY",
+    "paragraph": "We are Matias and Angie, a couple who started our business in Buenos Aires more than two years ago with a clear mission: to offer travelers experiences and products that are truly worthwhile. We know every corner, every flavor, and every experience worth living. That's why we personally try and select everything we recommend: from an initial list of 12 options, we choose only the top 3 in each category. We want you to enjoy the best of the best: experiences you'll remember, flavors that will stay with you, and moments you'll want to recommend."
+  },
+    "footer": {
+    "section1_title": "ARE YOU READY TO EXPERIENCE A UNIQUE JOURNEY?",
+    "section1_subtitle": "Book today and don't leave without creating incredible memories.",
+    "section1_button": "CONTACT US",
+    "section2_title":"ONE STEP AWAY FROM YOUR ROYAL STAY",
+        "copy":"© Royal Stay – All rights reserved."
+  },
+    "experiences_title":"OUR EXPERIENCES"
+}

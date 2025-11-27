@@ -1,7 +1,10 @@
+
 import "./globals.css";
 import {Inter, Oswald} from "next/font/google"
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+ import Footer from "./components/Footer";
+ import Navbar from "./components/Navbar";
+ import I18nProvider from "./components/I18nProvider";
+
 
 
 export const inter = Inter({
@@ -15,21 +18,18 @@ export const oswald = Oswald({
 })
 
 
-
-
-
-
 export default function RootLayout({ children }) {
-
   return (
     <html lang="es" className="bg-white dark:bg-white">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
-      <body className={`bg-white ${inter.className}`} >
-        <Navbar/>
-        {children}
-        <Footer/>
+      <body
+        className={`bg-white ${inter.className}`}
+        suppressHydrationWarning
+      >
+        <I18nProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </I18nProvider>
       </body>
     </html>
   );

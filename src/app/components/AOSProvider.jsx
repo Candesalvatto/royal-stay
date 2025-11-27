@@ -9,8 +9,12 @@ export default function AOSProvider({ children }) {
     AOS.init({
       duration: 500,
       once: true,
-      easing: "ease-in-out-cubic",
+      easing: "ease-in-out", 
     });
+
+    return () => {
+      AOS.refreshHard();
+    };
   }, []);
 
   return <>{children}</>;

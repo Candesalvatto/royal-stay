@@ -1,0 +1,22 @@
+[
+  {
+    "title": "SOCCER FIELD",
+    "description": "Feel the thrill of Argentine football from the inside. Experience a match at the Monumental Stadium with the incomparable energy of the River Plate fans. Enjoy the game from special seats in the stands, with a privileged view and all the comfort to live the most exciting show in the country.",
+    "images": ["/cancha1.jpg", "/cancha2.jpg", "/cancha3.jpg", "/cancha4.jpg"]
+  },
+  {
+    "title": "WINE TASTING",
+    "description": "Taste alongside expert winemakers and sommeliers in exclusive Palermo venues or in the warmth of their homes, with a selection of carefully chosen Argentine labels. An intimate experience where each glass reflects elegance, character, and history.",
+    "images": ["/Catadevino1.jpg", "/Catadevino2.jpg", "/Catadevino3.jpg", "/Catadevino4.jpeg"]
+  },
+  {
+    "title": "RELAXING MASSAGES",
+    "description": "Relax your body and mind with our selection of massages: relaxing, Thai, Nepalese or deep tissue. Immerse yourself in soft aromas, calming music and expert hands that release the tension accumulated during your trip. Enjoy your massage in the comfort of your accommodation or in a space designed for total disconnection. The perfect break to recharge and continue exploring Buenos Aires.",
+    "images": ["/masajes1.jpg", "/masajes2.jpg", "/masajes3.jpg", "/masajes4.jpg"]
+  },
+  {
+    "title": "BIKE TOURS",
+    "description": "Discover the city alongside expert local guides who know its history, culture, and hidden gems. Ride through tree-lined streets, lively plazas, and unique neighborhoods. A different way to explore the city: closer, more authentic, and truly yours. Our small-group tours allow you to enjoy the journey at your own pace—stop, take photos, and experience every corner without rushing.",
+    "images": ["/paseos1.jpg", "/paseos2.jpg", "/paseos3.jpg", "/paseos4.jpg"]
+  }
+]
