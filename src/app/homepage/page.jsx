@@ -34,7 +34,7 @@ const HomePage = () => {
         </div>
 
         {/* BANNER IMAGES */}
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div className="mt-15 mb-20" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
           <Image
             src="/hero-desktop-ba.webp"
             alt="Buenos Aires"
@@ -66,7 +66,7 @@ const HomePage = () => {
             {t("home.section2_title")}
           </h2>
 
-          <div className={`${inter.className} mt-10`}>
+          <div className={`${inter.className} mt-10 mb-5`}>
             <Button href="/experiences">
               {t("home.section2_button")}
             </Button>
@@ -165,7 +165,7 @@ const HomePage = () => {
         <section
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
-          className="border-t border-[#c8a951] max-w-9/10 lg:max-w-8/10 mx-auto mt-20 lg:mt-30 lg:mb-10"
+          className="border-t border-[#c8a951] max-w-9/10 lg:max-w-8/10 mx-auto mt-20 mb-10 lg:mt-30 lg:mb-10"
         >
           <h2 className={`${oswald.className} antialiased ${style.royalcolor} text-[36px] lg:text-[58px] font-bold mt-5 lg:w-2/3 leading-[1.3]`}>
             {t("home.how_title")}
@@ -177,7 +177,7 @@ const HomePage = () => {
         </section>
 
         {/* STEPS */}
-        <section className="max-w-9/10 lg:max-w-8/10 mx-auto md:mt-10 lg:mb-10 grid lg:grid-cols-3 md:gap-4 gap-1">
+        <section className="max-w-9/10 lg:max-w-8/10 mx-auto mb-20 md:mt-10 lg:mb-10 grid lg:grid-cols-3 md:gap-4 gap-1">
 
           {/* STEP 1 */}
           <div className="lg:mt-5 lg:mb-5 mt-5 mb-2">
