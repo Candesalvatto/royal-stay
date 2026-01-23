@@ -196,7 +196,7 @@ const Experiences = () => {
 
       {/* ---------- MODAL ---------- */}
       {showImage && (
-        <div className="fixed inset-0 flex items-center justify-center bg-white h-full z-50">
+        <div className="fixed inset-0 flex items-center justify-center bg-[#c8a951] h-full z-50">
           {/* Prev */}
           <div
             onClick={prevImage}
